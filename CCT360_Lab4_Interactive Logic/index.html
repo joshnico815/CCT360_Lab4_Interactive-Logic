@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Your Potential Basketball Journey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Journey to Professional Basketball</h1>
+    </header>
+
+    <main>
+        <section id="home" class="intro">
+            <div class="intro-text">
+                <h2>Want to go to the league?</h2>
+                <p>
+                    We all have dreams of becoming professional athletes. Plan your journey by making choices that shape your basketball career. Remember, everyone has different paths. Find yours here.
+                </p>
+                <a href="#journey" class="start-button">See Your Future</a>
+            </div>
+
+            <img src="images/basketball.avif" alt="Reaching for basketball">
+        </section>
+
+        <section id="journey">
+            <h2 id="stage-title">Stage 1: Development</h2>
+
+            <p id="story">
+                You're a young aspiring basketball player who wants to become a professional.
+                How will you develop your skills?
+            </p>
+
+            <div id="choices">
+                <button class="choice" data-points="2">
+                    Practice every day (at the gym, at home, or the park)
+                </button>
+
+                <button class="choice" data-points="1">
+                    Join a local youth team
+                </button>
+
+                <button class="choice" data-points="3">
+                    Enter a professional youth basketball tournament
+                </button>
+            </div>
+
+            <p id="feedback"></p>
+
+            <button id="next-button">Continue →</button>
+        </section>
+
+        <section class="player-info">
+            <h2>Player Progression</h2>
+            <p>Career development stage: <span id="stage-number">1</span> / 3</p>
+            <p>Development points: <span id="points">0</span></p>
+            <p>Your previous choices: <span id="history">None yet</span></p>
+        </section>
+
+        <section id="result" class="hidden">
+            <h2 id="result-title">Progression Outcome</h2>
+            <p id="result-text"></p>
+            <button id="restart-button">Play Again</button>
+        </section>
+    </main>
+
+</body>
+</html>
